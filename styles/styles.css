@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  background: rgb(133, 138, 155) url("../images/pattern-background-desktop.svg")
+    no-repeat;
+  background-size: 100%;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  line-height: 1.2;
+}
+
+main {
+  max-width: 23%;
+  margin: 0 auto;
+  background-color: white;
+  min-height: 75vh;
+  margin-top: 10vh;
+  border-radius: 30px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+main h1 {
+  font-size: 1.85rem;
+  color: #1f2e55;
+  text-align: center;
+  flex: 1;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.container-img {
+  flex: 1;
+}
+
+.image-card {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.presentation-card {
+  color: #717fa6;
+  max-width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+footer {
+  margin-top: 5vh;
+}
+
+.choose-card {
+  display: flex;
+  min-width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+.button-proceed {
+  background-color: #382ae1;
+  min-width: 85%;
+  border-radius: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0.8rem;
+  color: white;
+  margin-top: 2rem;
+}
+
+.button-cancel {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 50%;
+  margin-top: 2rem;
+  color: #717fa6;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.mini-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.annual-plan {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.change-text {
+  color: #382ae1;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.year-plan {
+  color: #717fa6;
+}
+
+@media (max-width: 1120px) {
+  main {
+    min-width: 60%;
+  }
+}
